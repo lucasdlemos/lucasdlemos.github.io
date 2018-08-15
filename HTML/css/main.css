@@ -1555,8 +1555,10 @@ blockquote {
 	padding: 0;
 	border: none;
 	font-family: 'Playfair Display', serif;
+	color: #f5f5f5;
+	/*color: #055d73;*/
 	font-size: 20px;
-	font-weight: 700;
+	/*font-weight: 700;*/
 	line-height: 1.15;
 	text-align: center;
 }
@@ -1590,7 +1592,7 @@ blockquote h5 {
 
 @media (min-width: 1200px) {
 	blockquote {
-		font-size: 35px;
+		font-size: 28px;
 	}
 }
 
@@ -3537,8 +3539,8 @@ div.ppt {
 }
 
 [class*="col-"] {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: -27px;
+	margin-bottom: 37px;
 }
 
 form [class*="col-"] {
@@ -3866,7 +3868,9 @@ header [class*="col-"] {
 @media screen and (min-width: 1200px) {
   /* overlap featured person */
 	.top-overlap {
-		margin-top: -150px;
+		max-width: 174%;
+		margin-top: -130px;
+		margin-left: -239px;
 	}
 
 	.top-overlap-small {
@@ -8380,7 +8384,7 @@ body.active-side-header.slide-right .page_header_side {
 
 	.intro_section .slide_description {
 		padding: 30px 0 60px;
-		display: block;
+		display: inline;
 	}
 
 	.intro_section .slide_description_wrapper {
