@@ -3868,9 +3868,9 @@ header [class*="col-"] {
 @media screen and (min-width: 1200px) {
   /* overlap featured person */
 	.top-overlap {
-		max-width: 174%;
+		max-width: 181%;
 		margin-top: -130px;
-		margin-left: -239px;
+		margin-left: -275px;
 	}
 
 	.top-overlap-small {
